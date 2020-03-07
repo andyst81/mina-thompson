@@ -1,4 +1,5 @@
-<section class="uk-section">
+<section id="blog" class="uk-section">
+  <h3 class="uk-heading-divider"></h3>
   <h3>Recent Posts</h3>
   {{ $blog := (where .Site.Pages "Type" "blog") }}
   {{ range first 3 $blog.ByPublishDate.Reverse }}
