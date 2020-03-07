@@ -5,7 +5,6 @@
       <img class="uk-align-center" {{ with .Params.image }} src="{{ . }}" {{ end }} alt="{{ .Title }}">
     </div>
     <h3 class="uk-card-title">{{ .Title}}</h3>
-    <h6>{{ .Params.author }}</h6>
     <p>{{ .Description }}</p>
     <a href="{{ .RelPermalink }}" class="abt-link">Read More…</a>
   </div>
