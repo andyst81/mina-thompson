@@ -4,19 +4,18 @@
   {{ $blog := (where .Site.Pages "Type" "blog") }}
   {{ range first 3 $blog.ByPublishDate.Reverse }}
 
-
   <div class="uk-card uk-container-small uk-align-center">
     <a href="{{ .RelPermalink }}" class="abt-link">
-      <div class="uk-card-media-top">
+      <div class="uk-card-media-top uk-transition-toggle">
         <img class="uk-align-center" {{ with .Params.image }} src="{{ . }}" {{ end }} alt="{{ .Title }}">
       </div>
       <h3 class="uk-card-title">{{ .Title}}</h3>
       <h6>{{ .Params.author }}</h6>
+      </a>
       <p>{{ .Description }}</p>
-    </a>
+      <a href="{{ .RelPermalink }}" class="abt-link">Read more...</a>
   </div>
 
   {{ end }}
-
 
 </section>

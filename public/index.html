@@ -11,13 +11,7 @@
   <link rel="stylesheet" href="https://minathompson.com/css/uikit.min.css" />
   <link rel="stylesheet" href="https://minathompson.com/css/gallery.css">
 
-  <link rel="stylesheet" type="text/css" href="https://minathompson.com/css/photoswipe.css"/>
-  <link rel="stylesheet" type="text/css" href="https://minathompson.com/css/default-skin/default-skin.css"/>
-  <script type="application/javascript" src="https://minathompson.com/js/photoswipe.min.js"></script>
-  <script type="application/javascript" src="https://minathompson.com/js/photoswipe-ui-default.min.js"></script>
-
 </head>
-
 <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
 
 <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
@@ -30,8 +24,8 @@
           <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
               <li class="uk-active"><a href="/">Home</a></li>
               <li class="uk-active"><a href="/blog">Blog</a></li>
-              <li class="uk-active"><a href="/about">About Me</a></li>
-              <li class="uk-active"><a href="/contact">Contact</a></li>
+              <li class="uk-active"><a href="https://minathompson.com/#about">About Me</a></li>
+              <li class="uk-active"><a href="https://minathompson.com/#contact">Contact</a></li>
               <li></li>
           </ul>
           <p class="uk-align-center"><a class="uk-icon-button" href="https://instagram.com/mina_c" uk-icon="icon: instagram"></a>
@@ -52,9 +46,10 @@
 
       <main id="main">
        
-    <h3 class="uk-heading-divider"></h3>
-  <div class="uk-width-1-5@s uk-align-center">
-    <img data-src="https://s.gravatar.com/avatar/8f08d0d1922a14fcb3398b7ff9bb0a9f?s=500" alt="Me" style="border-radius: 50%" uk-img>
+    <section id="intro">
+  <h3 class="uk-heading-divider"></h3>
+  <div class="uk-align-center">
+    <img class="uk-align-center" data-src="https://s.gravatar.com/avatar/8f08d0d1922a14fcb3398b7ff9bb0a9f?s=240" alt="Me" style="border-radius: 50%" uk-img>
   </div>
 
   <div class="uk-width-4-5@s uk-align-center">
@@ -66,142 +61,150 @@
     </div>
   </div>
 
-    <h3 class="uk-text-center uk-heading-divider"></h3>
-<h3>Recent Work</h3>
+</section>
 
-<div class="uk-child-width-1-3@s uk-text-center uk-grid-small" uk-grid>
+    <section id="portfolio">
+  <h3 class="uk-text-center uk-heading-divider"></h3>
+  <h3>Recent Work</h3>
+
+  <div class="uk-child-width-1-3@s uk-text-center uk-grid-small" uk-grid>
+    <div>
+      <a href="https://minathompson.com/galleries/veggie">
+        <div class="uk-card uk-transition-toggle" tabindex="0">
+          <img data-src="https://minathompson.com/pics/veggie/small/image01.png" width="800" height="800" alt="" uk-img>
+          <div class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">
+            <p class="uk-h4 uk-margin-remove">Vegetarian Food Photography</p>
+          </div>
+        </div>
+      </a>
+    </div>
+    <div>
+      <a href="https://minathompson.com/galleries/bujo">
+        <div class="uk-card uk-card-default uk-transition-toggle" tabindex="0">
+          <img data-src="https://minathompson.com/pics/bujo/small/bujo22_800x800.jpg" width="800" height="900" alt="" uk-img>
+          <div class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">
+            <p class="uk-h4 uk-margin-remove">Bullet Journal</p>
+          </div>
+      </a>
+    </div>
+  </div>
   <div>
-    <a href="https://minathompson.com/galleries/veggie">
+    <a href="https://minathompson.com/galleries/product">
       <div class="uk-card uk-transition-toggle" tabindex="0">
-        <img data-src="https://minathompson.com/pics/veggie/small/image01.png" width="800" height="800" alt="" uk-img>
+        <img data-src="https://minathompson.com/pics/product/small/image01.png" width="800" height="800" alt="" uk-img>
         <div class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">
-          <p class="uk-h4 uk-margin-remove">Vegetarian Food Photography</p>
+          <p class="uk-h4 uk-margin-remove">Product Photography</p>
         </div>
       </div>
     </a>
   </div>
   <div>
-    <a href="https://minathompson.com/galleries/bujo">
-      <div class="uk-card uk-card-default uk-transition-toggle" tabindex="0">
-        <img data-src="https://minathompson.com/pics/bujo/small/bujo22_800x800.jpg" width="800" height="900" alt="" uk-img>
+    <a href="https://minathompson.com/galleries/watercolor">
+      <div class="uk-card uk-transition-toggle" tabindex="0">
+        <img data-size="800*800" data-src="https://minathompson.com/pics/watercolor/small/watercolor03_800x800.jpg" width="800" height="800" alt="" uk-img>
         <div class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">
-          <p class="uk-h4 uk-margin-remove">Bullet Journal</p>
+          <p class="uk-h4 uk-margin-remove">Watercolor</p>
         </div>
+      </div>
     </a>
   </div>
-</div>
-<div>
-  <a href="https://minathompson.com/galleries/product">
-    <div class="uk-card uk-transition-toggle" tabindex="0">
-      <img data-src="https://minathompson.com/pics/product/small/image01.png" width="800" height="800" alt="" uk-img>
-      <div class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">
-        <p class="uk-h4 uk-margin-remove">Product Photography</p>
+  <div>
+    <a href="https://minathompson.com/galleries/food">
+      <div class="uk-card uk-transition-toggle" tabindex="0">
+        <img data-size="800*800" data-src="https://minathompson.com/pics/food/small/pumpkin_and_pork_curry_%281_of_1%29_800x800.png" width="800" height="800" alt="" uk-img>
+        <div class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">
+          <p class="uk-h4 uk-margin-remove">Food Photography</p>
+        </div>
       </div>
-    </div>
-  </a>
-</div>
-<div>
-  <a href="https://minathompson.com/galleries/watercolor">
-    <div class="uk-card uk-transition-toggle" tabindex="0">
-      <img data-size="800*800" data-src="https://minathompson.com/pics/watercolor/small/watercolor03_800x800.jpg" width="800" height="800" alt="" uk-img>
-      <div class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">
-        <p class="uk-h4 uk-margin-remove">Watercolor</p>
+    </a>
+  </div>
+  <div>
+    <a href="https://minathompson.com/galleries/calligraphy">
+      <div class="uk-card uk-transition-toggle" tabindex="0">
+        <img data-src="https://minathompson.com/pics/calligraphy/small/calligraphy02_800x800.jpg" width="800" height="800" alt="" uk-img>
+        <div class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">
+          <p class="uk-h4 uk-margin-remove">Calligraphy</p>
+        </div>
       </div>
-    </div>
-  </a>
-</div>
-<div>
-  <a href="https://minathompson.com/galleries/food">
-    <div class="uk-card uk-transition-toggle" tabindex="0">
-      <img data-size="800*800" data-src="https://minathompson.com/pics/food/small/pumpkin_and_pork_curry_%281_of_1%29_800x800.png" width="800" height="800" alt="" uk-img>
-      <div class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">
-        <p class="uk-h4 uk-margin-remove">Food Photography</p>
-      </div>
-    </div>
-  </a>
-</div>
-<div>
-  <a href="https://minathompson.com/galleries/calligraphy">
-    <div class="uk-card uk-transition-toggle" tabindex="0">
-      <img data-src="https://minathompson.com/pics/calligraphy/small/calligraphy02_800x800.jpg" width="800" height="800" alt="" uk-img>
-      <div class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">
-        <p class="uk-h4 uk-margin-remove">Calligraphy</p>
-      </div>
-    </div>
-  </a>
-</div>
-</div>
+    </a>
+  </div>
+  </div>
 
-    <section class="uk-section">
+</section>
+
+    <section id="blog" class="uk-section">
+  <h3 class="uk-heading-divider"></h3>
   <h3>Recent Posts</h3>
   
   
 
-
   <div class="uk-card uk-container-small uk-align-center">
     <a href="/blog/testing3/" class="abt-link">
-      <div class="uk-card-media-top">
-        <img class="uk-align-center"  src="https://images.unsplash.com/photo-1512389098783-66b81f86e199?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=900&amp;h=300&amp;q=80"  alt="Testing3">
+      <div class="uk-card-media-top uk-transition-toggle">
+        <img class="uk-align-center"  src="https://images.unsplash.com/photo-1512389098783-66b81f86e199?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=900&amp;h=300&amp;q=80"  alt="Testing 3">
       </div>
-      <h3 class="uk-card-title">Testing3</h3>
+      <h3 class="uk-card-title">Testing 3</h3>
       <h6></h6>
+      </a>
       <p>the last test</p>
-    </a>
+      <a href="/blog/testing3/" class="abt-link">Read more...</a>
   </div>
 
   
-
 
   <div class="uk-card uk-container-small uk-align-center">
     <a href="/blog/testing2/" class="abt-link">
-      <div class="uk-card-media-top">
-        <img class="uk-align-center"  src="https://images.unsplash.com/photo-1512389098783-66b81f86e199?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=900&amp;h=400&amp;q=80"  alt="Testing2">
+      <div class="uk-card-media-top uk-transition-toggle">
+        <img class="uk-align-center"  src="https://images.unsplash.com/photo-1512389098783-66b81f86e199?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=900&amp;h=300&amp;q=80"  alt="Testing 2">
       </div>
-      <h3 class="uk-card-title">Testing2</h3>
+      <h3 class="uk-card-title">Testing 2</h3>
       <h6></h6>
+      </a>
       <p>another test</p>
-    </a>
+      <a href="/blog/testing2/" class="abt-link">Read more...</a>
   </div>
 
   
-
 
   <div class="uk-card uk-container-small uk-align-center">
     <a href="/blog/testing/" class="abt-link">
-      <div class="uk-card-media-top">
-        <img class="uk-align-center"  src="https://images.unsplash.com/photo-1512389098783-66b81f86e199?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=900&amp;h=750&amp;q=80"  alt="Testing">
+      <div class="uk-card-media-top uk-transition-toggle">
+        <img class="uk-align-center"  src="https://images.unsplash.com/photo-1512389098783-66b81f86e199?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=900&amp;h=300&amp;q=80"  alt="Testing">
       </div>
       <h3 class="uk-card-title">Testing</h3>
       <h6></h6>
+      </a>
       <p>a test</p>
-    </a>
+      <a href="/blog/testing/" class="abt-link">Read more...</a>
   </div>
 
   
 
-
 </section>
 
-    <h3 class="uk-heading-divider"></h3>
-<h3>Contact</h3>
+    <section id=contact>
+  <h3 class="uk-heading-divider"></h3>
+  <h3>Contact</h3>
 
-<div class="uk-container-xsmall uk-align-center">
+  <div class="uk-container-xsmall uk-align-center">
     <form name="contact" method="POST" data-netlify="true">
-        <fieldset class="uk-fieldset">
-            <legend class="uk-legend">Let's collaborate!</legend>
-            <div class="uk-margin">
-                <input class="uk-input" type="text" placeholder="Name">
-            </div>
-            <div class="uk-margin">
-                <input class="uk-input" type="text" placeholder="Email Address">
-            </div>
-            <div class="uk-margin">
-                <textarea class="uk-textarea" rows="5" placeholder="Message"></textarea>
-            </div>
-        </fieldset>
-        <button class="uk-button uk-button-default uk-align-right" type="submit">Send</button>
+      <fieldset class="uk-fieldset">
+        <legend class="uk-legend">Let's collaborate!</legend>
+        <div class="uk-margin">
+          <input class="uk-input" type="text" placeholder="Name">
+        </div>
+        <div class="uk-margin">
+          <input class="uk-input" type="text" placeholder="Email Address">
+        </div>
+        <div class="uk-margin">
+          <textarea class="uk-textarea" rows="5" placeholder="Message"></textarea>
+        </div>
+      </fieldset>
+      <button class="uk-button uk-button-default uk-align-right" type="submit">Send</button>
     </form>
-</div>
+  </div>
+
+</section>
 
 
 
