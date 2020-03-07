@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://minathompson.com/"
 languageCode = "en-us"
 title = "Mina Thompson Portfolio"
 
@@ -13,12 +13,3 @@ title = "Mina Thompson Portfolio"
 [taxonomies]
   tag = "tags"
   author = "authors"
-
-# [[social]]
-#   name = "Instagram"
-#   url = "https://instagram.com/mina_c"
-#   weight = 1
-# [[social]]
-#   name = "Facebook"
-#   url = "https://facebook.com"
-#   weight = 2
