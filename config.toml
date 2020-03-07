@@ -1,0 +1,24 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Mina Thompson Portfolio"
+
+[permalinks]
+  blog = "/blog/:filename/"
+
+[params]
+  Description = "Mina Thompson Portfolio"
+  dateFormat = "Jan 2, 2006"
+  homeText = "I'm Mina and this is my artistic portfolio."
+
+[taxonomies]
+  tag = "tags"
+  author = "authors"
+
+# [[social]]
+#   name = "Instagram"
+#   url = "https://instagram.com/mina_c"
+#   weight = 1
+# [[social]]
+#   name = "Facebook"
+#   url = "https://facebook.com"
+#   weight = 2
